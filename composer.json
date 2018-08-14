@@ -1,0 +1,13 @@
+{
+    "require" : {
+        "slim/slim" : "^3.0",
+        "vlucas/phpdotenv" : "^2.4.0",
+        "messagebird/php-rest-api" : "^1.9.5",
+        "monolog/monolog" : "^1.23.0"
+    },
+    "autoload" : {
+        "classmap" : [
+            "MessageBirdHandler.php"
+        ]
+    }
+}
